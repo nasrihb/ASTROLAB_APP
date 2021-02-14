@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {Component}from 'react';
+import logo from './logo.png';
+import SignUP from './Signup';
+import SignIN from './Signin';
+import ListWish from './List_wishlist';
+import {BrowserRouter as Router,Route} from "react-router-dom";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component{
+  render(){
+    return (
+      <div>
+          <div>
+          <Router>
+            <Route path="/" exact component={SignUP}/>
+            <Route path="/SignIN" exact component={SignIN}/>
+            <Route path="/ListWish" exact component={ListWish}/>
+          </Router>
+          </div>
+      </div>
+    );
+  }
 }
 
 export default App;

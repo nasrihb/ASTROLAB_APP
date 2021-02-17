@@ -1,5 +1,4 @@
 import React,{Component} from 'react';
-import logo from './logo.png';
 import "bootstrap/dist/css/bootstrap.min.css" 
 import axios from 'axios'
 import './Signin.css';
@@ -44,7 +43,7 @@ class SignIN extends Component{
     return(
       <div className="Container">
         <div className="test">
-        <img src={logo} className="logo" alt="logo" />
+        <img src={'./assets/img/logo.png'} className="logo" alt="logo" />
         <div className='container'>
           <div className='form-div'>
             <form className="form" onSubmit={this.onSubmit}>
@@ -67,7 +66,7 @@ class SignIN extends Component{
               </div>
               <div className="form-group">
               <input type='submit' className='button' value='SignIn'/>
-              <a type="button" className="btn btn-link" href="/">SignUP</a>
+              <a type="button" className="btn btn-link" href="SignUP">SignUP</a>
               </div>
             </form>
           </div>

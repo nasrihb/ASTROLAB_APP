@@ -2,7 +2,6 @@ import React,{Component} from 'react';
 import "bootstrap/dist/css/bootstrap.min.css" 
 import axios from 'axios'
 import './Signup.css'
-import logo from './logo.png'
 
 class SignUP extends Component{
 
@@ -53,7 +52,7 @@ class SignUP extends Component{
         return(
           <div className="Container">
                     <div className="test">
-        <img src={logo} className="logo" alt="logo" />
+        <img src={'src/assets/img/logo.png'} className="logo" alt="logo" />
             
             <div className='container'>
               <div className='form-div'>

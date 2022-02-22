@@ -1,5 +1,7 @@
 # Getting Started with Create React App
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4f11ffe75068417cb871b6ea49986725)](https://app.codacy.com/gh/nasrihb/ASTROLAB_APP?utm_source=github.com&utm_medium=referral&utm_content=nasrihb/ASTROLAB_APP&utm_campaign=Badge_Grade_Settings)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
